@@ -1,6 +1,6 @@
 {
   "name": "tsmerge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shallow object merge.",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
