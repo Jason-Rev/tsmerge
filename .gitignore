@@ -35,5 +35,3 @@ node_modules
 # Ignore typings directory
 typings
 
-# Ignore generated test files
-dist/test
