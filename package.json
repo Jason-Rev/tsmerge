@@ -1,0 +1,33 @@
+{
+  "name": "tsmerge",
+  "version": "1.0.0",
+  "description": "Shallow object merge.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jason-Rev/tsmerge.git"
+  },
+  "keywords": [
+    "spread",
+    "assign",
+    "merge",
+    "object",
+    "immutable"
+  ],
+  "author": "Jason Dent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jason-Rev/tsmerge/issues"
+  },
+  "homepage": "https://github.com/Jason-Rev/tsmerge#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "deep-freeze": "0.0.1"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  }
+}

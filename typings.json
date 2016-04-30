@@ -1,0 +1,12 @@
+{
+  "name": "tsmerge",
+  "version": false,
+  "dependencies": {
+    "object-assign": "registry:npm/object-assign#4.0.1+20160301180549"
+  },
+  "ambientDevDependencies": {
+    "chai": "registry:dt/chai#3.4.0+20160317120654",
+    "deep-freeze": "registry:dt/deep-freeze#0.0.0+20160317120654",
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654"
+  }
+}
