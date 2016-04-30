@@ -2,7 +2,8 @@
   "name": "tsmerge",
   "version": "1.0.0",
   "description": "Shallow object merge.",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive ./dist/test"
   },
