@@ -29,7 +29,7 @@ Install:
 npm install tsmerge --save
 ```
 
-Usage
+Usage:
 ```javascript
 import {merge} from 'tsmerge';
 
