@@ -4,8 +4,7 @@
   "description": "Shallow object merge.",
   "main": "dist/index.js",
   "scripts": {
-    "mocha": "./node_modules/.bin/mocha",
-    "test": "npm run mocha -- --recursive dist/test"
+    "test": "./node_modules/.bin/mocha --recursive dist/test"
   },
   "repository": {
     "type": "git",
