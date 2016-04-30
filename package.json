@@ -4,7 +4,8 @@
   "description": "Shallow object merge.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha dist/test"
+    "mocha": "./node_modules/.bin/mocha",
+    "test": "npm run mocha -- --recursive dist/test"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,8 @@
   "homepage": "https://github.com/Jason-Rev/tsmerge#readme",
   "devDependencies": {
     "chai": "^3.5.0",
-    "deep-freeze": "0.0.1"
+    "deep-freeze": "0.0.1",
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "object-assign": "^4.0.1"
