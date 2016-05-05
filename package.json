@@ -16,7 +16,9 @@
     "assign",
     "merge",
     "object",
-    "immutable"
+    "immutable",
+    "typescript",
+    "javascript"
   ],
   "author": "Jason Dent",
   "license": "MIT",
