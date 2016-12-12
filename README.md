@@ -1,4 +1,8 @@
 # tsmerge
+## Update
+With the release of [Typescript 2.1](https://github.com/Microsoft/TypeScript/releases), tsmerge is no longer necessary.
+
+## Overview
 A shallow merge function that works nicely with typescript.
 
 In the spirit of making things immutable, it is important to be able to merge objects together in an easy fashion.
@@ -16,7 +20,7 @@ const options = Object.assign({}, defaults, customizations);
 
 tsmerge is just a friendlier way of doing Object.assign.
 
-Example:
+### Example:
 ```javascript
 import {merge} from 'tsmerge';
 ...
@@ -24,12 +28,12 @@ import {merge} from 'tsmerge';
 const options = merge(defaults, customizations);
 ```
 
-Install:
+### Install:
 ```
 npm install tsmerge --save
 ```
 
-Usage:
+### Usage:
 ```javascript
 import {merge} from 'tsmerge';
 
